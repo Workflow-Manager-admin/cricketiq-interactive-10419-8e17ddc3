@@ -85,11 +85,14 @@ export default function CricketIQModal({ accent, primary, secondary, onClose }) 
         </button>
         <div style={{ marginTop: 24, marginBottom: 8 }}>
           <h2 style={{
-            color: accent,
-            margin: 0, fontWeight: 800, fontSize: 27,
-            textShadow: `0 2px 8px ${primary}88`
+            color: '#ffd600',
+            margin: 0,
+            fontWeight: 800,
+            fontSize: '27px',
+            textShadow: `0 2px 8px ${primary}88`,
+            textAlign: 'center'
           }}>
-            CricketIQ Analysis
+            Fan Engagement
           </h2>
           {step < 4 &&
             <div style={{ color: secondary, fontWeight: 500, fontSize: 15, marginBottom: 6 }}>
